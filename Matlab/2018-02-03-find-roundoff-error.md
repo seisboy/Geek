@@ -7,7 +7,7 @@ categories:
 tags:
   - Roundoff
   - find()
-slug: find-floating-point-roundoff-error
+slug: find-roundoff-error
 ---
 
 为了找到数值对应的下标，通常会用到`find`函数。如果矩阵元素为整型，可以放心地使用；如果矩阵元素为浮点型，可能会产生由舍入误差导致的问题。
